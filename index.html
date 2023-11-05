@@ -5,12 +5,12 @@
     <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css" />
     <title>Oxana's Bootstrap Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+
 </head>
 
 <body>
@@ -41,7 +41,7 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-8">
+                <div class="col-sm-8">
                     <h1>Helping your company GROW</h1>
                     <p>THi, welcome and thanks for stopping by. Does your company needs help with marketing?</p>
 
@@ -52,33 +52,191 @@
 
                     <p>Have a look at my portfolio and let’s have a chat. Speak to you soon!</p>
                     <p>Oxana</p>
-                    <a class="btn btn-primary btn-lg" href="#portfolio" role="button">browse my portfolio</a>
-                </div>
-                <div class="col-4">
-                    <img src="assets/images/oxanas photo.png" alt="Oxana's mugshot">
+                    <a class="btn btn-primary btn-lg" href="#portfolio" role="button">Browse my portfolio</a>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Portfolio Section -->
-    <section class="portfolio-container">
-        <div class="row">
+    <div class="container">
+        <div class="row masonry-grid">
+            <div class="col-md-6 col-lg-4 masonry-column">
+                <div class="card">
+                    <img src="images/cio-review.png" class="card-img-top" alt="CiO Review Article">
+                    <div class="card-body">
+                        <h5 class="card-title">CIO Review Article</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://telecom.cioreview.com/vendor/2021/kigen" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/arm-event.png" class="card-img-top" alt="Arm
+                    Developer Summit 2019">
+                    <div class="card-body">
+                        <h5 class="card-title">Arm Developer Summit 2019</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/register-now-for-arm-techcon-2019-and-save-up-to-60"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/why-isim-video.png" class="card-img-top" alt="Why iSIM Video">
+                    <div class="card-body">
+                        <h5 class="card-title">Why iSIM Video</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://youtu.be/tZMC1bzq908" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/mobile-world-live-leadgen.png" class="card-img-top"
+                        alt="Mobile World Live Leadgen">
+                    <div class="card-body">
+                        <h5 class="card-title">Mobile World Live Leadgen</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://www.mobileworldlive.com/" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 masonry-column">
+                <div class="card">
+                    <img src="images/pelion-launch-video.png" class="card-img-top" alt="Pelion Launch Video">
+                    <div class="card-body">
+                        <h5 class="card-title">Pelion Launch Video</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://youtu.be/IKbxqqEgPMU" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/bloomberg-media.png" class="card-img-top" alt="Bloomberg Articlee">
+                    <div class="card-body">
+                        <h5 class="card-title">Bloomberg
+                            Media Coverage</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://business-reporter.co.uk/2021/05/27/whether-you-build-or-buy-iot-security-is-a-must-for-us-all/"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/raconteur-article.png" class="card-img-top" alt="Raconteur Article">
+                    <div class="card-body">
+                        <h5 class="card-title">Raconteur Article</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://www.raconteur.net/sponsored/trust-is-the-key-to-achieving-the-promise-of-trillions-of-iot-devices"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/event-demo.png" class="card-img-top" alt="Event Demo">
+                    <div class="card-body">
+                        <h5 class="card-title">Event Demo</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://community.arm.com/arm-community-blogs/b/internet-of-things-blog/posts/joining-dots-on-cellular-iot-at-mobile-world-congress-americas-2018"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 masonry-column">
+                <div class="card">
+                    <img src="images/IoT-content.png" class="card-img-top" alt="IoT Content">
+                    <div class="card-body">
+                        <h5 class="card-title">IoT Content</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://kigen.com/resources/white-papers/esim-and-isim-for-dummies-esim/"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/forbes-article.png" class="card-img-top" alt="Forbes Article">
+                    <div class="card-body">
+                        <h5 class="card-title">Forbes Article</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://www.forbes.com/sites/moorinsights/2020/11/19/the-future-of-industrial-iot-gateways-civilizing-the-wild-west-of-iot/?sh=6d62281667b1"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/iot-business-news-article.png" class="card-img-top" alt="IoT
+                    Business News Article">
+                    <div class="card-body">
+                        <h5 class="card-title">IoT
+                            Business News Article</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://iotbusinessnews.com/2020/07/22/50219-the-adoption-of-euiccs-and-isims-for-iot-is-forcing-vendors-to-adapt-their-strategies/"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/pelion-landing-page.png" class="card-img-top" alt="ROI Calculator Campaign">
+                    <div class="card-body">
+                        <h5 class="card-title">ROI Calculator Campaign</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.
+                        </p>
+                        <div class="text-center">
+                            <a href="https://pelion.com/resources/economic-impact-iot-connectivity/"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
+    </div>
+    </div>
 
-    </section>
-
-    <!-- Optional JavaScript -->
-    <!-- Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Masonry Layout-->
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
 </body>
 
 </html>

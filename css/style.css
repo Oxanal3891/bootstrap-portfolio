@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font: 500 100%/1.5 system-ui
+}
+
+.navbarScroll,
+.navbar-dark,
+.jumbotron {
+    background-color: black;
+
+
+}
+
+
+
+.nav-item:hover {
+    background-color: red;
+    color: white;
+}
+
+.navbar,
+.navbardark,
+.navbarScroll li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}

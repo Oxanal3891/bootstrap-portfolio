@@ -1,14 +1,36 @@
-* {
-    box-sizing: border-box;
-    font: 500 100%/1.5 system-ui
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.8rem;
+}
+
+h6 {
+    font-size: 0.7rem;
 }
 
 .navbarScroll,
 .navbar-dark,
-.jumbotron {
+.jumbotron,
+#portfolio,
+#contact,
+footer {
     background-color: black;
-
-
+    color: white;
+    font: 500 100%/1.5 system-ui
 }
 
 
@@ -25,4 +47,21 @@
     text-align: center;
     padding: 14px 16px;
 
+}
+
+i {
+    margin: 0px 13px;
+    color: white;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.fa-github-square:hover {
+    color: red;
+}
+
+.fa-linkedin:hover {
+    color: red;
 }

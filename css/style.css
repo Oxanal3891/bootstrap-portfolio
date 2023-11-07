@@ -22,7 +22,15 @@ h6 {
     font-size: 0.7rem;
 }
 
-.navbarScroll,
+p,
+p.card-text {
+    text-align: left;
+    font-size: 20px;
+    line-height: 2;
+    margin: 28px 0;
+
+}
+
 .navbar-dark,
 .jumbotron,
 #portfolio,
@@ -41,27 +49,67 @@ footer {
 }
 
 .navbar,
-.navbardark,
-.navbarScroll li a {
+.navbardark li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
 
 }
 
-i {
+.social-icons i {
     margin: 0px 13px;
     color: white;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+
 }
 
-.fa-github-square:hover {
+i.skills-icons {
+    margin: 0px 13px;
     color: red;
 }
 
+i.skills-icons:hover {
+    color: black;
+}
+
+a:hover,
+.fa-github:hover,
 .fa-linkedin:hover {
     color: red;
+}
+
+
+a:link,
+a:visited {
+    color: white;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 0 none;
+    border-radius: 0;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 5px 10px;
+
+}
+
+#herosection,
+#aboutme,
+#portfolio,
+#skills,
+#contact {
+    margin-top: 2rem;
+    padding: 2rem 4rem;
+
+}
+
+#herosection {
+    background-color: black;
+    margin-top: -3rem;
 }
